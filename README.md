@@ -7,7 +7,7 @@
     <img src="images/satellite-antenna.png" alt="Logo" width="120">
   </a>
 
-<h3 align="center">Open Probe Request Dataset</h3>
+<h3 align="center">Probe Requests Open Dataset</h3>
 
   <p align="center">
     MAC Address De-Randomization using Multi-Channel Sniffers and Two-Stage Clustering
