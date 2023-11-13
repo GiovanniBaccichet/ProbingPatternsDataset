@@ -39,7 +39,14 @@ Wi-Fi Probe Request captures of different devices, most of which share the *Oper
 | Samsung Galaxy S21 Ultra | Android `13`    | `S21Ultra-M`      | A, S  | I           |
 | Oppo Find X3 Neo         | Android `13`    | `OppoFindX3Neo-A` | S     | I           |
 
+To ensure user privacy, the data in the PCAP files has undergone anonymization processes.
 
+The following steps have been taken to anonymize sensitive information:
+
+- **MAC Address Anonymization**: Original MAC addresses have been replaced with randomly generated MAC addresses, ensuring that identical (original) MAC addresses have identical random counterparts.
+- **SSID Anonymization**: SSID information has been hashed using a secure hash function. The length of the hashed SSID matches the length of the original SSID to prevent malformed packets.
+
+The script used to perform said process is included in the repository, and called `PCAP_anonymizer.py` and requires `scapy` to run.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
